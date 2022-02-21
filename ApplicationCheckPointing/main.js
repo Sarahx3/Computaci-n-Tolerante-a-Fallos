@@ -56,13 +56,13 @@ window.onload = function() {
         };
 
         transaction.oncomplete = function() {
-        console.log('Transacción completada');
+        console.log('Transacción completada.');
 
         displayData();
         };
 
         transaction.onerror = function() {
-        console.log('Error en transacción');
+        console.log('Error en transacción.');
         };
     }
 
